@@ -32,6 +32,7 @@ def run_clustering():
             cluster_mode=args.cluster_mode,
             train_set_split_rate_lst=CONFIG['experiment']['train_set_split_rate'])
     elif args.data == 'atis':
+        print(">> debug run-clustering:")
         conll_format_clustering.clustering_and_dump_dict(
             data_dir=CONFIG['path']['RawData']['atis'],
             config=CONFIG,

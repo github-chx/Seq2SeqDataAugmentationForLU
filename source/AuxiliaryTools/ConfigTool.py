@@ -32,8 +32,8 @@ def update_config(data_root="/users4/ythou/Projects/TaskOrientedDialogue/data/",
         },
         'onmt': {
             'prepare_data': ['python3', './OpenNMT/preprocess.py', '-train_src', '<DATA_DIR>/train_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_src.txt', '-train_tgt', '<DATA_DIR>/train_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_tgt.txt', '-valid_src', '<DATA_DIR>/dev_<DATA_MARK><CLUSTER_METHOD>1<PAIR_MOD><NO_INDEX><NO_FILTERING>_src.txt', '-valid_tgt', '<DATA_DIR>/dev_<DATA_MARK><CLUSTER_METHOD>1<PAIR_MOD><NO_INDEX><NO_FILTERING>_tgt.txt', '-save_data', '<RESULT_DIR>/processed_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>'],
-            'train': ['python3', './OpenNMT/train.py', '-data', '<RESULT_DIR>/processed_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>', '-save_model', '<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>-model', '<GPU>'],
-            'test': ['python3', './OpenNMT/translate.py', '-model', '<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>-model.pt', '-src', '<DATA_DIR>/<EXPAND_TGT>_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_src.txt', '-output', '<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_pred.txt', '-replace_unk', '-verbose', '-n_best', '10', '<GPU>']
+            'train': ['python3', './OpenNMT/train.py', '-data', '<RESULT_DIR>/processed_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>', '-save_model', '<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>-model'],
+            'test': ['python3', './OpenNMT/translate.py', '-model', '<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>-model.pt', '-src', '<DATA_DIR>/<EXPAND_TGT>_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_src.txt', '-output', '<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_pred.txt', '-replace_unk', '-verbose', '-n_best', '10']
         },
         'gen_with_label': {
             'prepare_data': ['python3', './OpenNMT/preprocess.py',
@@ -44,13 +44,12 @@ def update_config(data_root="/users4/ythou/Projects/TaskOrientedDialogue/data/",
                              '-save_data', '<RESULT_DIR>/processed_<TRAIN_FILE_TAIL>'],
             'train': ['python3', './OpenNMT/train.py',
                       '-data', '<RESULT_DIR>/processed_<TRAIN_FILE_TAIL>',
-                      '-save_model', '<RESULT_DIR>/<TRAIN_FILE_TAIL>-model',
-                      '<GPU>'],
+                      '-save_model', '<RESULT_DIR>/<TRAIN_FILE_TAIL>-model'],
             'test': ['python3', './OpenNMT/translate.py',
                      '-model', '<RESULT_DIR>/<TRAIN_FILE_TAIL>-model.pt', '-src',
                      '<DATA_DIR>/train_<TRAIN_FILE_TAIL>_src.txt',
                      '-output', '<RESULT_DIR>/<TRAIN_FILE_TAIL>_pred.txt',
-                     '-replace_unk', '-verbose', '-n_best', '5', '<GPU>']
+                     '-replace_unk', '-verbose', '-n_best', '5']
         },
         'slot_filling': {
             'train_and_test': ['python3', './source/Evaluate/slot_filling_bilstm.py', '-t', '<TASK_NAME>', '-s', '<SEED>', '-sr', '<SPLIT_RATE>', '-cm', '<CLUSTER_METHOD>', '<EXTEND>', '<REFILL_ONLY>']

@@ -2,6 +2,7 @@
 import json
 import os
 import copy
+# 管理子进程
 import subprocess
 import argparse
 from source.AuxiliaryTools.nlp_tool import low_case_tokenizer, sentence_edit_distance
@@ -65,9 +66,11 @@ def remove_dup_pair(all_pairs):
             dup_num += 1
         else:
             non_dup[key] = p
+    # dict.values() 以list的形式返回所有的值
     return non_dup.values(), dup_num
 
 
+# 计算diverse的函数  ！！
 def diverse_score(s, t):
     """
     calculate pairing score
@@ -94,6 +97,7 @@ def get_pairs_within_cluster(all_user_temp, mode="full_connect", cov_p=0.5, appe
     """
     ret = []
     if mode == "full_connect":
+        # 返回所有长度为2的子序列
         for comb in combinations(all_user_temp, 2):
             ret.append(comb)  # use combination to avoid self to self pairs
             ret.append(comb[::-1])  # to get reverse of it
@@ -108,7 +112,7 @@ def get_pairs_within_cluster(all_user_temp, mode="full_connect", cov_p=0.5, appe
         top_x = int(len(all_user_temp) * cov_p)
         expand_count = 0
         for temp in all_user_temp:
-            top_diversity_set = sorted(all_user_temp, key=lambda x: diverse_score(temp, x), reverse=True)
+            top_diversity_set = sorted(all_user_temp, key=lambda x: diverse_score(temp, x), reverse=True)  # 降序
             top_diversity_set = top_diversity_set[:min(top_x + 1, len(all_user_temp))]
             for ind, cand in enumerate(top_diversity_set):
                 append_word = ' <%d>' % ind if append_index else ''
@@ -146,6 +150,10 @@ def generate_data(task_name, pair_mode='diverse_connect', append_index=True, no_
         print('=== Start to gen-data for: %s === ' % f_mark)
         tmp_pair_mode = pair_mode
         # tmp_pair_mode = 'circle' if 'test' in f_mark else pair_mode  # no need to have multi-source in source
+        print("==debug f_mark:" + f_mark)
+        print("==debug pair_mode_str:" + pair_mode_str)
+        print("==debug no_index_str:" + no_index_str)
+        print("==debug no_filtering_str:" + no_filtering_str)
         with open(raw_data_path + f, 'r') as reader, \
                 open(onmt_data_path + f_mark + pair_mode_str + no_index_str + no_filtering_str + '_tgt.txt', 'w') as tgt_writer, \
                 open(onmt_data_path + f_mark + pair_mode_str + no_index_str + no_filtering_str + '_src.txt', 'w') as src_writer:
@@ -216,6 +224,7 @@ def call_onmt(task_name, param):
     print('========================== Call Onmt for: %s ==========================' % task_name)
     print('==========================       Param       ==========================\n%s' % ' '.join(param))
     print('==========================  Open-NMT Output  ========================== \n')
+    # param 的第一项代表程序 的名字
     proc = subprocess.Popen(param, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     with open('log/' + task_name + 'log', 'w') as writer:
         for line in proc.stdout.readlines():
@@ -239,12 +248,13 @@ def main():
     pair_mod_str = '' if args.pair_mode == 'diverse_connect' else '_' + args.pair_mode
     no_filtering_str = '' if args.filter_rate < 1 else '_nf'
 
-    all_cluster_method = ['_nc'] if args.no_clustering else ['_leak-gan']
-    # all_cluster_method = ['_nc'] if args.no_clustering else ['_intent-slot']
+    # all_cluster_method = ['_nc'] if args.no_clustering else ['_leak-gan']
+    all_cluster_method = ['_nc'] if args.no_clustering else ['_intent-slot']
     # all_cluster_method = ['_nc'] if args.no_clustering else CONFIG['experiment']['cluster_method']
 
     # for split_rate in CONFIG['experiment']['train_set_split_rate']:
-    for split_rate in [4478]:
+    for split_rate in [129,515]:
+        print(">> debug all_cluster_method:", all_cluster_method)
         for cluster_method in all_cluster_method:
             # Customize these parameters for OpenNMT tool
 
@@ -261,8 +271,23 @@ def main():
                 '<SPLIT_RATE>': str(split_rate),
                 '<CLUSTER_METHOD>': cluster_method,
             }
+            # param_replace_table = {
+            #     '<DATA_MARK>': TASK_NAME,
+            #     '<DATA_DIR>': CONFIG['path']['OnmtData'] + 'SourceData',
+            #     '<RESULT_DIR>': CONFIG['path']['OnmtData'] + 'Result',
+            #     # '<MODEL_MARK>': args.model_mark,
+            #     '<PAIR_MOD>': "",
+            #     '<NO_INDEX>': no_index_str,
+            #     '<NO_FILTERING>': no_filtering_str,
+            #     '<GPU>': '' if args.gpu_id < 0 else ('-gpu %d' % args.gpu_id),
+            #     '<EXPAND_TGT>': args.expand_target,
+            #     '<SPLIT_RATE>': str(split_rate),
+            #     '<CLUSTER_METHOD>': "_intent-slot",
+            # }
+            cluster_method = '_intent-slot'
             print('Debug', param_replace_table)
             param_config = dress_param_with_config(CONFIG['onmt'], param_replace_table)
+
             if COOK_DATA:
                 # to get word embedding and dict
                 call_onmt('prepare_data' + TASK_NAME + cluster_method + str(split_rate) + pair_mod_str + no_index_str + no_filtering_str, param_config['prepare_data'])
@@ -271,6 +296,7 @@ def main():
             if RUN_TEST:
                 call_onmt('test' + TASK_NAME + cluster_method + str(split_rate) + pair_mod_str + no_index_str + no_filtering_str, param_config['test'])
             if RUN_REFILL:
+                print('>> debug:'+"cluster_method:"+cluster_method+"pair_mod_str:"+pair_mod_str, "no_index_str:"+no_index_str, "no_filtering_str:"+no_filtering_str)
                 refill_template(TASK_NAME, TASK_NAME + cluster_method + str(split_rate) + pair_mod_str + no_index_str + no_filtering_str + '_pred.txt',  split_rate, args.slot_value_table)
 
 

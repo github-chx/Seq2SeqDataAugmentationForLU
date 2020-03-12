@@ -27,7 +27,7 @@ parser.add_argument("-gcd", "--gen_conll_data", help="convert generated data to 
 parser.add_argument("-f", "--full", help="run all part", action="store_true")
 
 # Deep Customize
-parser.add_argument("-gpu", "--gpu_id", type=int, default=0, help='input gpu id for current task, -1 to not use gpu')
+parser.add_argument("-gpu", "--gpu_id", type=int, default=-1, help='input gpu id for current task, -1 to not use gpu')
 parser.add_argument('--config', default='./config.json', help="specific a config file by path")
 args = parser.parse_args()
 

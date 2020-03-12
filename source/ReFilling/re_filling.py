@@ -13,6 +13,7 @@ CONTEXT_REFILL_RATE = 0.5  # Refill slot by context match by this rate
 DEBUG = False
 
 
+# 参数d的类型是什么？？
 def old_candidate_num(d):
     ret = 0
     for value in d.values():
@@ -65,6 +66,7 @@ def old_re_fill_sentences(lines, temp_query_dict, full_query_dict):
                     tmp_res = tmp_res.replace('<' + slot_name + '>', select_slot_value)
                     r2 += 1
         # Step3
+        # 正则 () 标记一个子表达式的开始和结束位置
         slot_name_lst = re.findall("<(.*?)>", tmp_res)
         if slot_name_lst:
             for slot_name in slot_name_lst:
@@ -130,6 +132,8 @@ def re_fill_sentences(lines, context_query_dict, full_query_dict, refill_only, f
     for line, line_id in lines:
         debug_lst = []
         if refill_only:
+            # 正则 + 表示匹配前面的的表达式一次或多次, \d 表示数字.
+            # 删除数字
             line = re.sub('<\d+>', '', line)
         word_lst = line.split()
         tmp_res = word_lst
@@ -140,6 +144,7 @@ def re_fill_sentences(lines, context_query_dict, full_query_dict, refill_only, f
                 context_text_word_lst = context_lst[ind]
 
                 slot_name = slot_word.replace('<', '').replace('>', '')
+                # 使用 空格 把list里面的元素拼接成字符串
                 context_text = ' '.join(context_text_word_lst)
 
                 # judge weather is slot  & randomly using other slot & judge weather have these slot name
@@ -216,7 +221,7 @@ def re_filling_thread(task_queue, done_queue):
 
 
 def re_filling(config, task, target_file_name='navigate1_pred.txt', split_rate=1, slot_value_table='train', refill_only=False):
-    # print('?????', task, target_file_name, split_rate, slot_value_table, refill_only)
+    print('?????', task, target_file_name, split_rate, slot_value_table, refill_only)
     result_dir = config['path']['OnmtData'] + 'Result/'
     if not refill_only:
         input_dir = config['path']['OnmtData'] + 'Result/'
@@ -325,3 +330,11 @@ def re_filling(config, task, target_file_name='navigate1_pred.txt', split_rate=1
                 }
             )
         json.dump(json_for_conll, for_conll_file)
+
+
+if __name__ == "__main__":
+    # old_candidate_num(["xx", "ni", "yy"])
+    wordlist = ["xx", "<YY>", "uu", "nn", "mm", "<zz>"]
+    slot_lst, context_lst = extract_slot_context(wordlist)
+    print ("slot list:", slot_lst, "context_lst", context_lst)
+

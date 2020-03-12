@@ -4,9 +4,11 @@ main code for clustering
 define clustering class
 and running this code to get clustering for stanford data
 """
+
 import json
 import os
 from source.AuxiliaryTools.nlp_tool import  low_case_tokenizer
+from string import digits
 
 CONTEXT_WINDOW_SIZE = 2  # 2 is used because it is empirical feature setting in slot filling task
 SENT_COUNT_SPLIT = False
@@ -196,12 +198,18 @@ class Cluster:
         cluster_mode = cluster_mode if cluster_mode else self.cluster_mode
         # processing data
         domain_name = target_file.split('_')[0] + '_' + self.special_mark  # eg: weather_labeled
-        data_label = target_file.split('_')[1]  # eg: dev, train, test
+        # data_label = target_file.split('_')[1]  # eg: dev, train, test
+        s = target_file.split('_')[1].split('.')[0]  # eg: dev, train, test
+        remove_digits = str.maketrans('', '', digits)
+        data_label = s.translate(remove_digits)
+
         raw_data = self.load_data(self.input_dir + target_file)
         # print('debug!!!', len(self.all_data_item[domain_name]), target_file)
+
         self.unpack_and_cook_raw_data(raw_data, domain_name)
         print('debug!!!', len(self.all_data_item[domain_name]), target_file)
         # ======= split the data to smaller parts ========
+        # NOTE: 这里没有对intent的比例做限制？？
         data_item_set_lst = []  # store different size of data_item set
         if split_rate_lst and 'train' in data_label:
             for split_rate in split_rate_lst:
@@ -216,7 +224,9 @@ class Cluster:
             split_rate_lst = [1]
 
         # ======= fill the dict for temp refilling =========
+        print('debug!!!', len(data_item_set_lst), ">> data label:", data_label)
         for ind, data_item_set in enumerate(data_item_set_lst):
+            # print(">> ind", ind, "data item set", data_item_set)
             for data_item in data_item_set:
                 self.update_dict(domain_name, data_item, data_label, split_rate_lst[ind])
 
@@ -360,7 +370,7 @@ class Cluster:
 
 
 def clustering_and_dump_dict(data_dir, config=None, cluster_mode='all', train_set_split_rate_lst=None, special_mark='labeled'):
-    print('user utterance clustering')
+    print('>> debug:user utterance clustering')
     if not config:
         with open('../../config.json', 'r') as con_f:
             config = json.load(con_f)
@@ -372,6 +382,7 @@ def clustering_and_dump_dict(data_dir, config=None, cluster_mode='all', train_se
     for file_name in all_file:
         all_domain.add(str(file_name.split('_')[0]) + '_' + special_mark)
 
+    print('>> debug: all_domain:', all_domain)
     tmp_cluster = Cluster(
         input_dir=data_dir,
         result_dir=config['path']['ClusteringResult'],

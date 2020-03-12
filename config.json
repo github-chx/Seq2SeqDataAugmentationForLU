@@ -1,9 +1,119 @@
 {
-  "model": null,
+  "onmt": {
+    "train": [
+      "python3",
+      "./OpenNMT/train.py",
+      "-data",
+      "<RESULT_DIR>/processed_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>",
+      "-save_model",
+      "<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>-model"
+    ],
+    "test": [
+      "python3",
+      "./OpenNMT/translate.py",
+      "-model",
+      "<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>-model.pt",
+      "-src",
+      "<DATA_DIR>/<EXPAND_TGT>_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_src.txt",
+      "-output",
+      "<RESULT_DIR>/<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_pred.txt",
+      "-replace_unk",
+      "-verbose",
+      "-n_best",
+      "10"
+    ],
+    "prepare_data": [
+      "python3",
+      "./OpenNMT/preprocess.py",
+      "-train_src",
+      "<DATA_DIR>/train_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_src.txt",
+      "-train_tgt",
+      "<DATA_DIR>/train_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>_tgt.txt",
+      "-valid_src",
+      "<DATA_DIR>/dev_<DATA_MARK><CLUSTER_METHOD>1<PAIR_MOD><NO_INDEX><NO_FILTERING>_src.txt",
+      "-valid_tgt",
+      "<DATA_DIR>/dev_<DATA_MARK><CLUSTER_METHOD>1<PAIR_MOD><NO_INDEX><NO_FILTERING>_tgt.txt",
+      "-save_data",
+      "<RESULT_DIR>/processed_<DATA_MARK><CLUSTER_METHOD><SPLIT_RATE><PAIR_MOD><NO_INDEX><NO_FILTERING>"
+    ]
+  },
   "path": {
     "GenerationResult": "E:/Projects/Research/TaskOrientedDialogue/data/GenerationResult/",
+    "DataRoot": "E:/Projects/Research/TaskOrientedDialogue/data/",
+    "Embedding": "E:/Projects/Research/TaskOrientedDialogue/data/Embedding/",
+    "OnmtData": "E:/Projects/Research/TaskOrientedDialogue/data/OnmtData/",
     "ClusteringResult": "E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/",
-    "RawData": "E:/Projects/Research/TaskOrientedDialogue/data/Stanford/",
-    "DataRoot": "E:/Projects/Research/TaskOrientedDialogue/data/"
+    "RawData": {
+      "stanford_labeled": "E:/Projects/Research/TaskOrientedDialogue/data/StanfordLabeled/",
+      "stanford": "E:/Projects/Research/TaskOrientedDialogue/data/Stanford/",
+      "atis": "E:/Projects/Research/TaskOrientedDialogue/data/Atis/"
+    },
+    "Evaluate": "E:/Projects/Research/TaskOrientedDialogue/data/Evaluate/"
+  },
+  "experiment": {
+    "train_set_split_rate": [
+      129,
+      515,
+      4478
+    ],
+    "cluster_method": [
+      "_intent-slot",
+      "_intent",
+      "_slot"
+    ]
+  },
+  "gen_with_label": {
+    "train": [
+      "python3",
+      "./OpenNMT/train.py",
+      "-data",
+      "<RESULT_DIR>/processed_<TRAIN_FILE_TAIL>",
+      "-save_model",
+      "<RESULT_DIR>/<TRAIN_FILE_TAIL>-model"
+    ],
+    "test": [
+      "python3",
+      "./OpenNMT/translate.py",
+      "-model",
+      "<RESULT_DIR>/<TRAIN_FILE_TAIL>-model.pt",
+      "-src",
+      "<DATA_DIR>/train_<TRAIN_FILE_TAIL>_src.txt",
+      "-output",
+      "<RESULT_DIR>/<TRAIN_FILE_TAIL>_pred.txt",
+      "-replace_unk",
+      "-verbose",
+      "-n_best",
+      "5"
+    ],
+    "prepare_data": [
+      "python3",
+      "./OpenNMT/preprocess.py",
+      "-train_src",
+      "<DATA_DIR>/train_<TRAIN_FILE_TAIL>_src.txt",
+      "-train_tgt",
+      "<DATA_DIR>/train_<TRAIN_FILE_TAIL>_tgt.txt",
+      "-valid_src",
+      "<DATA_DIR>/dev_<DEV_FILE_TAIL>_src.txt",
+      "-valid_tgt",
+      "<DATA_DIR>/dev_<DEV_FILE_TAIL>_tgt.txt",
+      "-save_data",
+      "<RESULT_DIR>/processed_<TRAIN_FILE_TAIL>"
+    ]
+  },
+  "slot_filling": {
+    "train_and_test": [
+      "python3",
+      "./source/Evaluate/slot_filling_bilstm.py",
+      "-t",
+      "<TASK_NAME>",
+      "-s",
+      "<SEED>",
+      "-sr",
+      "<SPLIT_RATE>",
+      "-cm",
+      "<CLUSTER_METHOD>",
+      "<EXTEND>",
+      "<REFILL_ONLY>"
+    ]
   }
 }

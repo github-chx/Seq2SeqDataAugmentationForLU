@@ -101,9 +101,15 @@ class Translator(object):
         encStates, context = self.model.encoder(src, src_lengths)  # return hidden_t, outputs
         print(type(torch.autograd.Variable(torch.FloatTensor(encStates[0].data.shape).uniform_(-0.2, 0.2))))
         print(type(encStates[0]))
+        # newEncStates = (
+        #     encStates[0] + torch.autograd.Variable(torch.FloatTensor(encStates[0].data.shape).uniform_(-0.2, 0.2)).cuda(),
+        #     encStates[1] + torch.autograd.Variable(torch.FloatTensor(encStates[1].data.shape).uniform_(-0.2, 0.2).cuda())
+        # )
         newEncStates = (
-            encStates[0] + torch.autograd.Variable(torch.FloatTensor(encStates[0].data.shape).uniform_(-0.2, 0.2)).cuda(),
-            encStates[1] + torch.autograd.Variable(torch.FloatTensor(encStates[1].data.shape).uniform_(-0.2, 0.2).cuda())
+            encStates[0] + torch.autograd.Variable(
+                torch.FloatTensor(encStates[0].data.shape).uniform_(-0.2, 0.2)),
+            encStates[1] + torch.autograd.Variable(
+                torch.FloatTensor(encStates[1].data.shape).uniform_(-0.2, 0.2))
         )
         if NOISE_TRANSELATE:
             decStates = self.model.decoder.init_decoder_state(src, context, newEncStates)

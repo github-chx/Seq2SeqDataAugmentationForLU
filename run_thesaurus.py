@@ -41,5 +41,5 @@ if __name__ == '__main__':
         for cluster_method in ['_intent-slot']:
         # for cluster_method in CONFIG['experiment']['cluster_method']:
             if RUN_REFILL:
-                print('Start to refill for', 'train_' + TASK_NAME + cluster_method + str(split_rate) + '_src.txt')
-                refill_source_template(TASK_NAME, 'train_' + TASK_NAME + cluster_method + str(split_rate) + '_src.txt', args.slot_value_table, split_rate)
+                print('Start to refill for', 'train_' + TASK_NAME + cluster_method + str(split_rate) +'_ni'+ '_src.txt')
+                refill_source_template(TASK_NAME, 'train_' + TASK_NAME + cluster_method + str(split_rate) +'_ni'+ '_src.txt', args.slot_value_table, split_rate)

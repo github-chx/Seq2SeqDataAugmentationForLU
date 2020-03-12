@@ -51,6 +51,7 @@ def main():
 
     opt.cuda = opt.gpu > -1
     if opt.cuda:
+        print(">> ------has gpu----")
         torch.cuda.set_device(opt.gpu)
     translator = onmt.Translator(opt, dummy_opt.__dict__)
     out_file = codecs.open(opt.output, 'w', 'utf-8')
@@ -63,6 +64,7 @@ def main():
         opt.src, opt.tgt, translator.fields,
         use_filter_pred=False)
 
+   # remove device=opt.gpu,
     test_data = onmt.IO.OrderedIterator(
         dataset=data, device=opt.gpu,
         batch_size=opt.batch_size, train=False, sort=False,

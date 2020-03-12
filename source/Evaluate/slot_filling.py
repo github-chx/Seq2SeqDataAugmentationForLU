@@ -263,10 +263,10 @@ def prepare_data_to_conll_format(config, task_name='navigate', split_rate=1, clu
     # define input file path
     # refilled_data_path = gen_result_dir + task_name + cluster_method + str(split_rate) + '_pred_refilled.txt'
     # gen_data_path = gen_result_dir + task_name + cluster_method + str(split_rate) + '_pred.txt'
-    gen_for_conll_file_path = gen_result_dir + task_name + cluster_method + str(split_rate) + pair_mod + no_index + no_filter_str +'_pred_for-conll.json'
+    gen_for_conll_file_path = gen_result_dir + task_name + cluster_method + str(split_rate) + '_ni' + pair_mod + no_index + no_filter_str +'_pred_for-conll.json'
     # rfo_refilled_data_path = gen_result_dir + 'train_' + task_name + cluster_method + str(split_rate) + '_src_refilled.txt'
     # rfo_gen_data_path = gen_source_dir + 'train_' + task_name + cluster_method + str(split_rate) + '_src.txt'
-    rfo_for_conll_file_path = gen_result_dir + 'train_' + task_name + cluster_method + str(split_rate) + '_src_for-conll.json'
+    rfo_for_conll_file_path = gen_result_dir + 'train_' + task_name + cluster_method + str(split_rate) + '_ni' +'_src_for-conll.json'
 
     train_cluster_result_path = cluster_result_dir + 'train_%s%s%s.json' % (task_name, cluster_method, str(split_rate))
     test_cluster_result_path = cluster_result_dir + 'test_%s%s1.json' % (task_name, cluster_method)

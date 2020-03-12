@@ -2,7 +2,8 @@
 import argparse
 import json
 from source.Evaluate.slot_filling import prepare_data_to_dukehan, prepare_data_to_conll_format
-from source.Evaluate.slot_filling_data_processor import cook_slot_filling_data
+from source.Evaluate.slot_filling_bilstm
+# from source.Evaluate.slot_filling_data_processor import cook_slot_filling_data
 from set_config import refresh_config_file
 import copy
 import subprocess

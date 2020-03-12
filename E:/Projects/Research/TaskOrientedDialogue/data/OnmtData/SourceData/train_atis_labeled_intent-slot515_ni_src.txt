@@ -1,0 +1,382 @@
+i need to know information for flights leaving <fromloc.city_name> on <depart_date.day_name> <depart_time.period_of_day> and returning to <toloc.city_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+find me the <flight_mod> flight from <fromloc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> of <depart_date.date_relative> week which leave <fromloc.city_name> <depart_time.time_relative> <depart_time.time>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+of all airlines which airline has the <mod> arrivals in <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+ground transportation in <city_name>
+show me a list of ground transportation at <city_name>
+all flights from <fromloc.city_name> to <toloc.city_name> leaving <depart_time.time_relative> <depart_time.time> and <depart_time.time_relative> <depart_time.time>
+flights from <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+give me a list of airports in <city_name>
+<fromloc.city_name> to <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+what is fare code <fare_basis_code>
+show me the ground transportation in <city_name>
+i also need service from <fromloc.city_name> to <toloc.city_name> arriving <arrive_time.time_relative> <arrive_time.time>
+list the <airline_name> flights from <fromloc.city_name> to <toloc.city_name>
+show me a list of ground transportation at <city_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+what is the ground transportation from <fromloc.airport_name> to the city <unk>
+what kind of ground transportation is available in <city_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+which airlines serve <city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+what 's the airport at <city_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+show me a list of ground transportation at <city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+how much does the <transport_type> service cost within <city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+what is the distance from <fromloc.airport_name> to <toloc.city_name>
+ground transportation in <city_name>
+give me a list of airports in <city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+what types of aircraft does <airline_name> fly
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+which airlines serve <city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+what kinds of planes are used by <airline_name>
+give me the flights leaving <fromloc.city_name> <depart_date.month_name> <depart_date.day_number> coming back to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name> by way of <stoploc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+what are the classes of service for <airline_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+where does <airline_name> fly
+all flights from <fromloc.city_name> to <toloc.city_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+show me the ground transportation in <city_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+what 's the airport at <city_name>
+what kinds of planes are used by <airline_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+<city_name> ground transportation
+does <airline_name> have any flights out of <fromloc.city_name> to <toloc.city_name>
+of all airlines which airline has the <mod> arrivals in <toloc.city_name>
+what flights are available from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> <depart_time.period_of_day>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+what flights are available from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> <depart_time.period_of_day>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+give me the <cost_relative> flight from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name> that stop in <stoploc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+display all flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.month_name> <depart_date.day_number>
+also show me flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+show me flights to <toloc.city_name> from <fromloc.city_name> stopping in <stoploc.city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+i need information on flights for <depart_date.day_name> leaving <fromloc.city_name> for <toloc.city_name> <fromloc.city_name> to <toloc.city_name> and <fromloc.city_name> to <toloc.city_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+list all the flights that fly into <fromloc.airport_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+what 's the airport at <city_name>
+i would like to fly from <fromloc.city_name> to <toloc.city_name> on <airline_name>
+how much does the <transport_type> service cost within <city_name>
+i want to find the <flight_mod> flight from <fromloc.city_name> to <toloc.city_name> that serves a <meal>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+what flights fly from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> <depart_date.day_name> <depart_date.day_name> <depart_date.day_name> and <depart_date.day_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+i 'd like to know the <flight_mod> trip between <fromloc.city_name> and <toloc.city_name>
+give me a list of airports in <city_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+what is booking class <fare_basis_code>
+show flights from <fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+please find a flight on <airline_name> from <fromloc.city_name> to <toloc.city_name> and give me the flight numbers
+flights from <fromloc.city_name> to <toloc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name> <depart_date.day_name> <depart_time.period_of_day>
+please find a flight on <airline_name> from <fromloc.city_name> to <toloc.city_name> and give me the flight numbers
+what is booking class <fare_basis_code>
+where does <airline_name> fly
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+find the <flight_mod> flight from <fromloc.city_name> to <toloc.city_name> that serves a <meal>
+what flights go from <fromloc.city_name> to <toloc.city_name> <depart_time.time_relative> <depart_time.time>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name> that stop in <stoploc.city_name>
+give me the <cost_relative> flight from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+what are the classes of service for <airline_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+please give me the flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> of <depart_date.date_relative> week
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+list all the flights that fly into <fromloc.airport_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+what flights fly from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> <depart_date.day_name> <depart_date.day_name> <depart_date.day_name> and <depart_date.day_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+what is the ground transportation from <fromloc.airport_name> to the city <unk>
+<fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+i would like to fly from <fromloc.city_name> to <toloc.city_name> on <airline_name>
+how much does it cost to rent a <transport_type> in <city_name>
+please give me the flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> of <depart_date.date_relative> week
+show me flights from <fromloc.city_name> to <toloc.city_name>
+please list available flights for <depart_date.date_relative> <depart_date.day_name> from <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name> both direct and connecting that arrive <arrive_time.time_relative> <arrive_time.time>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+what 's the airport at <city_name>
+what are the flights available <depart_time.time_relative> <depart_time.time> between <fromloc.city_name> and <toloc.city_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+<cost_relative> airfare from <fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+what flights go from <fromloc.city_name> to <toloc.city_name> <depart_time.time_relative> <depart_time.time> <depart_date.date_relative> <depart_date.day_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+show me the ground transportation in <city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+show me information on ground transportation for <city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+please find a flight on <airline_name> from <fromloc.city_name> to <toloc.city_name> and give me the flight numbers
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+does <airline_name> have any flights out of <fromloc.city_name> to <toloc.city_name>
+please list available flights for <depart_date.date_relative> <depart_date.day_name> from <fromloc.city_name> to <toloc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+show me the ground transportation in <city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name> <depart_date.day_name> <depart_time.period_of_day>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+show me information on ground transportation for <city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+show me information on ground transportation for <city_name>
+from <fromloc.city_name> to <toloc.city_name>
+how much does it cost to rent a <transport_type> in <city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+what are the classes of service for <airline_name>
+what kind of ground transportation is available in <city_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+what 's the airport at <city_name>
+show me information on ground transportation for <city_name>
+from <fromloc.city_name> to <toloc.city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+also show me flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+which airlines serve <city_name>
+list the <airline_name> flights from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+what kind of ground transportation is available in <city_name>
+i also need service from <fromloc.city_name> to <toloc.city_name> arriving <arrive_time.time_relative> <arrive_time.time>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+what is the <cost_relative> flight from <fromloc.city_name> to <toloc.city_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+what types of aircraft does <airline_name> fly
+give me a list of airports in <city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+where does <airline_name> fly
+list all flights from <fromloc.city_name> to <toloc.city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+which airline has the <mod> arrivals in <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+what kind of ground transportation is available in <city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name> that stop in <stoploc.city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+what airlines fly from <fromloc.city_name> to <stoploc.city_name> to <toloc.city_name>
+what is fare code <fare_basis_code>
+all flights from <fromloc.city_name> to <toloc.city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+give me a list of airports in <city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+which airlines serve <city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+what flights go from <fromloc.city_name> to <toloc.city_name> <depart_time.time_relative> <depart_time.time>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+flights from <fromloc.city_name> to <toloc.city_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+what kind of ground transportation is available in <city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+what airlines fly from <fromloc.city_name> to <stoploc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name> by way of <stoploc.city_name>
+how far is it from <fromloc.airport_name> to <toloc.city_name>
+show me the ground transportation in <city_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+i need information on flights for <depart_date.day_name> leaving <fromloc.city_name> for <toloc.city_name> <fromloc.city_name> to <toloc.city_name> and <fromloc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+what types of aircraft does <airline_name> fly
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+<city_name> ground transportation
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+show me a list of ground transportation at <city_name>
+what flights fly from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> <depart_date.day_name> <depart_date.day_name> <depart_date.day_name> and <depart_date.day_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name> by way of <stoploc.city_name>
+ground transportation in <city_name>
+what kinds of planes are used by <airline_name>
+list the <airline_name> flights from <fromloc.city_name> to <toloc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+does <airline_name> have any flights out of <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name> of <depart_date.date_relative> week which leave <fromloc.city_name> <depart_time.time_relative> <depart_time.time>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+<city_name> ground transportation
+show me flights from <fromloc.city_name> to <toloc.city_name>
+i would like to make a reservation for a flight to <toloc.city_name> from <fromloc.city_name> on <depart_date.date_relative> coming <depart_date.day_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name> leaving <depart_time.time_relative> <depart_time.time> and <depart_time.time_relative> <depart_time.time>
+find the <flight_mod> flight from <fromloc.city_name> to <toloc.city_name> that serves a <meal>
+show me the flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+i would like to fly from <fromloc.city_name> to <toloc.city_name> on <airline_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+show flights from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+<city_name> ground transportation
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+i need to know information for flights leaving <fromloc.city_name> on <depart_date.day_name> <depart_time.period_of_day> and returning to <toloc.city_name>
+show me all flights from <fromloc.city_name> to <toloc.city_name>
+i want to find the <flight_mod> flight from <fromloc.city_name> to <toloc.city_name> that serves a <meal>
+what airlines fly from <fromloc.city_name> to <stoploc.city_name> to <toloc.city_name>
+what kind of aircraft is used on a flight from <fromloc.city_name> to <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+display all flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.month_name> <depart_date.day_number>
+show me all flights from <fromloc.city_name> to <toloc.city_name> both direct and connecting that arrive <arrive_time.time_relative> <arrive_time.time>
+which airlines serve <city_name>
+i 'd like to arrange a flight from <fromloc.city_name> to <toloc.city_name>
+i 'd like to have some information on a ticket from <fromloc.city_name> to <toloc.city_name> and <toloc.city_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+what does fare code <fare_basis_code> mean
+<cost_relative> airfare from <fromloc.city_name> to <toloc.city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+show me information on ground transportation for <city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+show me flights to <toloc.city_name> from <fromloc.city_name> stopping in <stoploc.city_name>
+also show me flights from <fromloc.city_name> to <toloc.city_name> on <depart_date.day_name>
+<city_name> ground transportation
+could you please tell me the airlines that fly from <fromloc.city_name> to <toloc.city_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+what are the flights available <depart_time.time_relative> <depart_time.time> between <fromloc.city_name> and <toloc.city_name>
+i 'd like to know the <flight_mod> trip between <fromloc.city_name> and <toloc.city_name>
+which airline has the <mod> arrivals in <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+show me a list of ground transportation at <city_name>
+show me the fares from <fromloc.city_name> to <toloc.city_name>
+show me flights from <fromloc.city_name> to <toloc.city_name>
+how far is it from <fromloc.airport_name> to <toloc.city_name>
+i need information on flights for <depart_date.day_name> leaving <fromloc.city_name> for <toloc.city_name> <fromloc.city_name> to <toloc.city_name> and <fromloc.city_name> to <toloc.city_name>
+give me the flights leaving <fromloc.city_name> <depart_date.month_name> <depart_date.day_number> coming back to <toloc.city_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+i need information from <fromloc.city_name> to <toloc.city_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+<fromloc.city_name> to <toloc.city_name>
+find me the <flight_mod> flight from <fromloc.city_name> to <toloc.city_name>
+fares and flights from <fromloc.city_name> to <toloc.city_name>
+what are the flights from <fromloc.city_name> to <toloc.city_name>
+show me flights to <toloc.city_name> from <fromloc.city_name> stopping in <stoploc.city_name>
+from <fromloc.city_name> to <toloc.city_name>
+all flights from <fromloc.city_name> to <toloc.city_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+i need a flight from <fromloc.city_name> to <toloc.city_name>
+ground transportation in <city_name>
+list all flights from <fromloc.city_name> to <toloc.city_name>
+what are all the flights from <fromloc.city_name> to <toloc.city_name>
+what does fare code <fare_basis_code> mean
+ground transportation in <city_name>
+what is the distance from <fromloc.airport_name> to <toloc.city_name>
+what is the <cost_relative> flight from <fromloc.city_name> to <toloc.city_name>
+show me the flights from <fromloc.city_name> to <toloc.city_name>
+what flights go from <fromloc.city_name> to <toloc.city_name> <depart_time.time_relative> <depart_time.time> <depart_date.date_relative> <depart_date.day_name>
+i 'd like to book a flight from <fromloc.city_name> to <toloc.city_name>
+i would like to make a reservation for a flight to <toloc.city_name> from <fromloc.city_name> on <depart_date.date_relative> coming <depart_date.day_name>

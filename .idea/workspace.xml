@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5d45f7-b5f2-4283-bf94-30da024988ac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenNMT-new" beforeDir="false" afterPath="$PROJECT_DIR$/OpenNMT-new" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenNMT-new/CHANGELOG.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenNMT-new/CONTRIBUTING.md" beforeDir="false" />
@@ -199,9 +198,6 @@
       <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/vid_feature_extractor.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenNMT-new/train.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenNMT-new/translate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Cluster/conll_format_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/Cluster/conll_format_clustering.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,88 +246,7 @@
     <favorites_list name="DialogueDiversification" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_clustering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="17" column="19" selection-start-line="17" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="e#15#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
-              <caret line="158" column="42" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/atis_test.conll">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="76" selection-start-column="2" selection-end-column="76" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_intent1.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_slot1.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_intent-slot129.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_slot129.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_gen_with_label.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1638">
-              <caret line="102" column="30" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_onmt_generation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -475,57 +390,6 @@
             <path>
               <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
               <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-              <item name="E:" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-              <item name="E:" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-              <item name="E:" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="Research" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-              <item name="E:" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="Research" type="462c0819:PsiDirectoryNode" />
-              <item name="TaskOrientedDialogue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-              <item name="E:" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="Research" type="462c0819:PsiDirectoryNode" />
-              <item name="TaskOrientedDialogue" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="Cluster" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1175,54 +1039,6 @@
     <entry file="file://$PROJECT_DIR$/run_thesaurus.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="19" selection-start-line="17" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="158" column="42" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/atis_test.conll">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="76" selection-start-column="2" selection-end-column="76" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_intent1.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_slot1.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_intent-slot129.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/run_gen_with_label.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1638">
@@ -1239,6 +1055,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_slot129.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_intent-slot129.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_slot1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_intent1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="76" selection-start-column="2" selection-end-column="76" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/atis_test.conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="158" column="42" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="17" column="19" selection-start-line="17" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

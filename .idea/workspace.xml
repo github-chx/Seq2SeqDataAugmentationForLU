@@ -5,29 +5,203 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5d45f7-b5f2-4283-bf94-30da024988ac" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DialogueDiversification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DialogueDiversification.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OpenNMT-new" beforeDir="false" afterPath="$PROJECT_DIR$/OpenNMT-new" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenNMT-new/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenNMT-new/preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenNMT-new/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenNMT-new/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenNMT-new/translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenNMT-new/translate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenNMT/onmt/Translator.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenNMT/onmt/Translator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenNMT/onmt/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenNMT/onmt/Utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenNMT/translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenNMT/translate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/available_models/example.conf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/config/config-rnn-summarization.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/config/config-transformer-base-1GPU.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/config/config-transformer-base-4GPU.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/morph/src.train" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/morph/src.valid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/morph/tgt.train" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/morph/tgt.valid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/src-test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/src-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/src-val.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/test_model2.src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/test_model2.tgt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/tgt-train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/data/tgt-val.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/Library.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/Library.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/Summarization.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/_static/theme_overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/examples.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/extended.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/im2text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/main.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/modules.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/onmt.inputters.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/onmt.modules.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/onmt.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/onmt.translate.translation_server.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/onmt.translation.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/options/preprocess.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/options/server.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/options/train.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/options/translate.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/quickstart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/ref.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/refs.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/speech2text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/docs/source/vid2text.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/floyd.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/floyd_requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/github_deploy_key_opennmt_opennmt_py.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/bin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/bin/average_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/bin/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/bin/release_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/bin/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/bin/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/bin/translate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/decoders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/decoders/cnn_decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/decoders/decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/decoders/ensemble.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/decoders/transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/encoders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/encoders/audio_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/encoders/cnn_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/encoders/encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/encoders/image_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/encoders/mean_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/encoders/rnn_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/encoders/transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/inputters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/inputters/audio_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/inputters/datareader_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/inputters/dataset_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/inputters/image_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/inputters/inputter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/inputters/text_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/inputters/vec_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/model_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/models/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/models/model_saver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/models/sru.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/models/stacked_rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/average_attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/conv_multi_step_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/copy_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/global_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/multi_headed_attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/position_ffn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/sparse_activations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/sparse_losses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/structured_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/util_class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/modules/weight_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/opts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/output_hyp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/pull_request_chk.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/rebuild_test_models.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/sample_glove.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_audio_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_beam_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_copy_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_greedy_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_image_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_model2.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_models.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_simple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_structured_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_text_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/test_translation_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/tests/utils_for_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/train_single.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/beam_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/decode_strategy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/greedy_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/penalties.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/process_zh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/translation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/translation_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/translate/translator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/alignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/cnn_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/distributed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/earlystopping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/optimizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/parse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/report_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/rnn_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/onmt/utils/statistics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/apply_bpe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/average_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/bpe_pipeline.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/create_vocabulary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/detokenize.perl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/embeddings_to_torch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/extract_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/learn_bpe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/multi-bleu-detok.perl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/multi-bleu.perl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.el" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.en" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.es" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.fi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.fr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.ga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.hu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.is" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.it" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.lt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.lv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.nl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.ro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.sk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.sl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.sv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.ta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.yue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/nonbreaking_prefixes/nonbreaking_prefix.zh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/release_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/test_rouge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/tokenizer.perl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/tools/vid_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenNMT-new/translate.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_gen_with_label.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_gen_with_label.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_onmt_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_onmt_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_slot_filling_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_slot_filling_evaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_thesaurus.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_thesaurus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/set_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/set_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/AuxiliaryTools/ConfigTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/AuxiliaryTools/ConfigTool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/Cluster/conll_format_clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/Cluster/conll_format_clustering.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Evaluate/slot_filling.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/Evaluate/slot_filling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ReFilling/re_filling.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/ReFilling/re_filling.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +252,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenNMT/docs/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/run_clustering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" column="19" selection-start-line="17" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#15#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2790">
+              <caret line="158" column="42" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/atis_test.conll">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -91,17 +285,39 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor>
+                <caret column="76" selection-start-column="2" selection-end-column="76" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_slot_filling_evaluation.py">
+        <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_intent1.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_slot1.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_intent-slot129.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_slot129.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_gen_with_label.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            <state relative-caret-position="1638">
+              <caret line="102" column="30" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -109,62 +325,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_onmt_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2792">
-              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_clustering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="200" column="18" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_gen_evaluation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenNMT/onmt/Translator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3240">
-              <caret line="194" column="31" selection-start-line="194" selection-start-column="31" selection-end-line="194" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/nn_tool.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -180,10 +342,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>refill_template</find>
-      <find>clustering</find>
-      <find>dump_dict</find>
-      <find>.txt</find>
       <find>all_cluster_method</find>
       <find>cook_data</find>
       <find>dress_param_with_config</find>
@@ -210,6 +368,10 @@
       <find>gen_for_conll_file_path</find>
       <find>prepare_data_to_conll_format</find>
       <find>rfo_for_conll_file_path</find>
+      <find>intent_lst</find>
+      <find>intent1</find>
+      <find>unpack_and_cook_raw_data</find>
+      <find>refresh_config_file</find>
     </findStrings>
     <replaceStrings>
       <replace>$PROJECT_DIR$/Data/</replace>
@@ -255,7 +417,6 @@
         <option value="$PROJECT_DIR$/run_aug_baseline_slot_filling_for.py" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/source/AuxiliaryTools/tmp" />
-        <option value="$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py" />
         <option value="$PROJECT_DIR$/config1.json" />
         <option value="$PROJECT_DIR$/source/ReFilling/re_filling.py" />
         <option value="$PROJECT_DIR$/log/prepare_dataatis_labeled_leak-gan4478log" />
@@ -272,8 +433,9 @@
         <option value="$PROJECT_DIR$/run_onmt_generation.py" />
         <option value="$PROJECT_DIR$/run_gen_with_label.py" />
         <option value="$PROJECT_DIR$/source/Evaluate/slot_filling.py" />
-        <option value="$PROJECT_DIR$/source/Cluster/conll_format_clustering.py" />
         <option value="$PROJECT_DIR$/run_slot_filling_evaluation.py" />
+        <option value="$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py" />
+        <option value="$PROJECT_DIR$/source/Cluster/conll_format_clustering.py" />
       </list>
     </option>
   </component>
@@ -313,6 +475,57 @@
             <path>
               <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
               <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+              <item name="E:" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+              <item name="E:" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+              <item name="E:" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="Research" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+              <item name="E:" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="Research" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskOrientedDialogue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+              <item name="E:" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="Research" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskOrientedDialogue" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seq2SeqDataAugmentationForLU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seq2SeqDataAugmentationForLU" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="Cluster" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,7 +569,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_gen_with_label">
+  <component name="RunManager" selected="Python.nlp_tool">
     <configuration name="GanTest" type="PythonConfigurationType" factoryName="Python">
       <module name="DialogueDiversification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -565,10 +778,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nlp_tool" />
         <item itemvalue="Python.run_gen_with_label" />
         <item itemvalue="Python.atis_clustering" />
         <item itemvalue="Python.re_filling" />
-        <item itemvalue="Python.nlp_tool" />
         <item itemvalue="Python.diverse_score_demo" />
       </list>
     </recent_temporary>
@@ -596,8 +809,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68088233" visible="true" weight="0.24053724" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.21581335" />
+      <window_info id="Favorites" order="2" sideWeight="0.31911764" side_tool="true" weight="0.18924174" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28076062" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SFDX" order="8" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="9" />
+      <window_info anchor="bottom" id="Log Manager" order="10" />
+      <window_info anchor="bottom" id="Salesforce" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4859585" weight="0.29285714" />
+      <window_info anchor="bottom" id="Statistic" order="13" weight="0.32890856" />
+      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.51404154" side_tool="true" weight="0.030612245" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" sideWeight="0.4882353" weight="0.21516526" />
+      <window_info anchor="right" id="File Transfer" order="4" sideWeight="0.4574944" visible="true" weight="0.17910448" />
+      <window_info anchor="right" id="Terminal" order="5" sideWeight="0.5073069" weight="0.24530831" />
+      <window_info anchor="right" id="Event Log" order="6" sideWeight="0.41036415" side_tool="true" weight="0.24742931" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Debug" order="8" weight="0.47764096" />
+      <window_info anchor="right" id="Database" order="9" sideWeight="0.49888143" weight="0.32995737" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" sideWeight="0.5425056" side_tool="true" visible="true" weight="0.17910448" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68088233" visible="true" weight="0.17216118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.21581335" />
       <window_info id="Favorites" order="2" sideWeight="0.31911764" side_tool="true" weight="0.18924174" />
@@ -613,9 +858,9 @@
       <window_info anchor="bottom" id="Execute Anonymous" order="9" />
       <window_info anchor="bottom" id="Log Manager" order="10" />
       <window_info anchor="bottom" id="Salesforce" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.48657718" weight="0.29351032" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4859585" weight="0.29285714" />
       <window_info anchor="bottom" id="Statistic" order="13" weight="0.32890856" />
-      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.79916316" side_tool="true" weight="0.030612245" />
+      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.51404154" side_tool="true" visible="true" weight="0.030612245" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -627,7 +872,7 @@
       <window_info anchor="right" id="Debug" order="8" weight="0.47764096" />
       <window_info anchor="right" id="Database" order="9" sideWeight="0.49888143" weight="0.32995737" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="10" sideWeight="0.5425056" side_tool="true" visible="true" weight="0.17910448" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -642,12 +887,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py</url>
-          <line>393</line>
+          <line>395</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py</url>
-          <line>230</line>
+          <line>232</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -725,6 +970,11 @@
           <line>297</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -736,178 +986,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/diverse_score_demo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/data_split.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/preprocess.lua" />
-    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/Atis/atis_test.conll">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/dev_atis_labeled_intent1.json" />
-    <entry file="file://$PROJECT_DIR$/set_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/slot_leak_check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/ConfigTool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="46" column="77" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="77" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/nn_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/eval_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="28" selection-start-line="28" selection-end-line="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT/onmt/ModelConstructor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#115#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="52" selection-start-column="2" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/requirements.opt.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/trainer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT/onmt/Utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT/onmt/IO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1069">
-          <caret line="251" column="21" selection-start-line="251" selection-start-column="6" selection-end-line="251" selection-end-column="21" />
-          <folding>
-            <element signature="e#25#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT/onmt/Trainer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/bin/translate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <folding>
-            <element signature="e#47#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/beam_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/decode_strategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/process_zh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/greedy_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/penalties.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/translation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2317" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/translation_server.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/translator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="450" selection-start-line="449" selection-start-column="23" selection-end-line="450" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/penalties.py" />
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/translation.py" />
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/translation_server.py" />
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/onmt/translate/translator.py" />
     <entry file="file://$PROJECT_DIR$/OpenNMT/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -918,16 +1000,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="317" selection-start-line="317" selection-end-line="317" />
-          <folding>
-            <element signature="e#23#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/train.py" />
     <entry file="file://$PROJECT_DIR$/OpenNMT/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -935,88 +1008,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/server.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#47#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/OnmtData/Result/atis_labeled_intent-slot4478_ni_pred.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT-new/translate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="56" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/server.py" />
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/preprocess.py" />
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/OnmtData/Result/atis_labeled_intent-slot4478_ni_pred.txt" />
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/translate.py" />
     <entry file="file://$PROJECT_DIR$/OpenNMT/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenNMT/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="e#47#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_gen_with_label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_aug_baseline_slot_filling_for.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_onmt_generation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2792">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config1.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1056,33 +1053,192 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OpenNMT/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/requirements.opt.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/AuxiliaryTools/nlp_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenNMT-new/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenNMT/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <element signature="e#47#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Cluster/clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/atis_dev.conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11482">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/atis_train129.conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/atis_train4478.conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/buyingshoes_train_578.conll">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/buyingshoes_dev.conll">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_intent515.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_intent-slot515.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_slot515.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_slot4478.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_intent129.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/Atis/atis_train129.conll">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/Atis/atis_train515.conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="789">
+          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_aug_baseline_slot_filling_for.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_gen_evaluation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
+        <state relative-caret-position="699">
           <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="200" column="18" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_slot_filling_evaluation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
+        <state relative-caret-position="267">
           <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_thesaurus.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="19" selection-start-line="17" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Cluster/conll_format_clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="158" column="42" selection-start-line="158" selection-start-column="42" selection-end-line="158" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/atis_test.conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="76" selection-start-column="2" selection-end-column="76" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_intent1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/test_atis_labeled_slot1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_intent-slot129.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_gen_with_label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="102" column="30" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_onmt_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E:/Projects/Research/TaskOrientedDialogue/data/ClusteringResult/train_atis_labeled_slot129.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -143,6 +143,7 @@ class Cluster:
         for dm in self.all_domain:
             self.all_data_item[dm] = []
         for dialogue in raw_data:
+            print('>> DEBUG dialogue:', dialogue)
             word_label_pair_lst = dialogue.split('\n')
             # Store info for a dialogue
             all_user_word_lst = []
@@ -154,6 +155,7 @@ class Cluster:
             intent_lst = []
 
             for pair in word_label_pair_lst:
+                print('>> DEBUG pair:', pair)
                 word, label = pair.split()
                 word = word.lower()
                 if word in ['intent1', 'intent2', 'intent3', ]:

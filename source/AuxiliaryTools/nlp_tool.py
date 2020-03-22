@@ -88,7 +88,9 @@ if __name__ == "__main__":
     print("Testing")
     s = "show<O> me<O> the<O> flights<O> from<O> san<B-fromloc.city_name> diego<I-fromloc.city_name> to<O> newark<B-toloc.city_name>"
     # s = "xxx's a-b_c-d (b-d) <aaa_ddd> yyyyy<sdfsd_bsdb> yyyyy:<sdfsd_bsdb>"
-    print(low_case_tokenizer(s))
-    sen = "hello ! hi 5.6 a.m. yes ."
-    print(">>", convert_to_word_lst(sen))
+    # print(low_case_tokenizer(s))
+    sen = 'hello ! hi 5.6 a.m. yes .'
+
+    print(">>", convert_to_word_lst(u'hello ! hi 5.6 a.m. yes .'))
+
 
